@@ -11,6 +11,8 @@ Il se compose d'une partie qui concerne le dessin de la scène et d'un formulair
    - 3 TrackBars permettent la modification des angles de la caméra du Point de Vue
    - 3 TrackBars permettent la modification de la position de la caméra du Point de Vue
    - 3 TrackBars permettent la modification de la position du point visé par la caméra d Point de Vue
+   
+   ![image](https://user-images.githubusercontent.com/81978881/116218069-7195e700-a74a-11eb-9368-3174f2ef4303.png)
 
 ## Particularité du code
 La partie dessin utilise le mode OpenGL immédiat mais aussi les VertexArray. Nous ne somme pas encore dans l'OpenGL dit moderne c'est à dire la version 3.3 et supérieure.

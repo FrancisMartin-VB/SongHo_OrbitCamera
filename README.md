@@ -28,10 +28,11 @@ La class OrbitCamera permet de voir la caméra comme un objet ayant subi un dép
    Cela n'empêche pas l'utilisation du concepteur de formulaire. 
    - Les class ObjModel et OrbitCamera originales fournissent des fonctionnalités qui ne sont pas nécessaires pour ce programmes. Elles ont été traduites en VB mais pas testées. Elles ont été déportées dans le répertoire Surplus.
    - Le GLControl n'est pas disponible dans le concepteur de formulaire. Vous pouvez le remplacer par un control Panel afin d'obtenir les propriétés de mise en page que vous pourrez récupérer lors de la configuration du GLControl dans le code.
-```visual basic.net
-   'Ajout dans le New ou le Load du formulaire
-   'création du control hors désigner
-   Rendu3emePerson = New GLControl() With {
+
+```vb
+'Ajout dans le New ou le Load du formulaire
+'création du control hors désigner
+Rendu3emePerson = New GLControl() With {
             .API = Common.ContextAPI.OpenGL,
             .APIVersion = New Version(3, 3, 0, 0),
             .Flags = Common.ContextFlags.Default,
@@ -39,9 +40,9 @@ La class OrbitCamera permet de voir la caméra comme un objet ayant subi un dép
             .Profile = Common.ContextProfile.Compatability,
             .Name = "Rendu3emePerson",							'propriété de mise en page
             .Location = New Point(0, 0),						'propriété de mise en page
-            .Size = TailleRendu}								'propriété de mise en page
-   'ajout du controle sur le formulaire
-   Controls.Add(RenduOpenGL)
+            .Size = TailleRendu}							'propriété de mise en page
+'ajout du controle sur le formulaire
+Controls.Add(RenduOpenGL)
 ```
 - GLControl Core. 
 	- Le package Nuget du GLControl Core n'est pas disponible. Il faut donc créer la dll correspondant en télechargeant le code ici : https://github.com/opentk/GLControl

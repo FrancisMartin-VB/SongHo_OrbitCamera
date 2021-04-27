@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "SongHo_OrbitCamera_OpenTK", "SongHo_OrbitCamera_OpenTK\SongHo_OrbitCamera_OpenTK.vbproj", "{A88CB835-98A1-487C-A0EE-F65639834224}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A88CB835-98A1-487C-A0EE-F65639834224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A88CB835-98A1-487C-A0EE-F65639834224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A88CB835-98A1-487C-A0EE-F65639834224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A88CB835-98A1-487C-A0EE-F65639834224}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2291BD8-346F-45FC-8CD6-874AC6A5389C}
+	EndGlobalSection
+EndGlobal

@@ -49,7 +49,7 @@ Controls.Add(RenduOpenGL)
 	- Chaque GLControl doit avoir son contexte OpenGL. Les objets OpenGL, ArrayBuffer et ElementsArrayBuffer sont créés dans chaque contexte ce qui n'est pas le cas en framework 4.8 où les objets OpenGL sont communs
 
 ## Type de projet
-- Projet VS 2017 Net Core 5.0
+- Projet VS 2019 Net Core 5.0
 - Dépendance Librairie OpenTK version 4.6.3. Package NuGet à partir de la gestion des packages NuGet sous VS
 - Dépendance Librairie OpenTK.GlControl Net Core 5.0. dll fournie à partir d'une compilation OpenTK version 4.6.3 et Net Core 5.0
 - Dépendance Librairie OpenTK.Texte fournie à partir d'une compilation OpenTK version 4.6.3 et Net Core 5.0 ou utilisation du code VB (traduction C# --> VB)

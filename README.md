@@ -29,7 +29,7 @@ La class OrbitCamera permet de voir la caméra comme un objet ayant subi un dép
    - Les class ObjModel et OrbitCamera originales fournissent des fonctionnalités qui ne sont pas nécessaires pour ce programmes. Elles ont été traduites en VB mais pas testées. Elles ont été déportées dans le répertoire Surplus.
    - Le GLControl n'est pas disponible dans le concepteur de formulaire. Vous pouvez le remplacer par un control Panel afin d'obtenir les propriétés de mise en page que vous pourrez récupérer lors de la configuration du GLControl dans le code.
 
-```vb
+```basic
 'Ajout dans le New ou le Load du formulaire
 'création du control hors désigner
 Rendu3emePerson = New GLControl() With {

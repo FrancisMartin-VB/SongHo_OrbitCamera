@@ -19,7 +19,7 @@ La partie dessin utilise le mode OpenGL immédiat mais aussi les VertexArray. No
 Nous avons quand même la mise en place de buffers et des indices qui sont les précurseurs des VBOs. 
 La class ObjModel permet la lecture des fichiers au format .Obj et la création des données nécessaires aux ArrayBuffer et aux ElementsArrayBuffer.
 La class OrbitCamera permet de voir la caméra comme un objet ayant subi un déplacement dans le monde global
-
+***
 
 
 - Implémentation de l'application et du formulaire WindowsForms. 
